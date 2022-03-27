@@ -12,7 +12,7 @@ Then I figured the best way is to use a proxy and add allow-origin-access-contro
 Download the index.js file and change it to any file name you want and then import it into your own project
 # Important Note:
 1. This version can only accept proxy url for https. To proxy to a http endpoint, you can try to modify the code and change the https to http in the code (there is only one place calling https)
-2. To use DynamicUrl options, the http endpoint "must" be encoded with `encodeURIComponent()`. (it might has something to do with my own environment, but )
+2. To use DynamicUrl options, the http endpoint "must" be encoded with `encodeURIComponent()`.
 # Example
 1. With Dynamic URL
 ```javascript
